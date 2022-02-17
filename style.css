@@ -1,0 +1,212 @@
+@font-face{
+    font-family: itim;
+    src: url(./assets/itim.ttf);
+}
+:root{
+    font-family: itim,sans-serif;
+}
+body{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin: 0;
+}
+.sidebar{
+    background-color: palegoldenrod;
+    padding: 10px 20px 20px 20px;
+}
+.dashboard a{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-right: 45px;
+    margin-bottom: 30px;
+    align-items: center;
+    font-size: 25px;
+    text-decoration: none;
+    color: palevioletred;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 60px;
+}
+.menu a{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0px 65px 10px 13px;
+    align-items: center;
+    font-size: 22px;
+    text-decoration: none;
+    color: palevioletred;
+}
+a:hover{
+    text-decoration: underline;
+}
+.main-page{
+    display: grid;
+    grid-template-rows: 1fr 1fr auto;
+}
+.header1{
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 1fr 11fr 1fr 4fr;
+    padding: 10px;
+}
+.header1 label{
+    cursor: pointer;
+}
+input{
+    width: 85%;
+    justify-self: start;
+    height: 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+}
+.header-profile{
+    display: grid;
+    grid-template-columns: 7fr 15fr;
+    align-items: center;
+    justify-self: start;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.header-profile img{
+    height: 40px;
+    width: 40px;
+}
+.header2{
+    background-color: black;
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: 9fr 2fr 2fr 2fr;
+    padding: 10px 10px 10px 30px;
+}
+.profile-container{
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    justify-self: start;
+    align-items: center;
+}
+.profile-container img{
+    height: 60px;
+    width: 60px;
+}
+.greetings{
+    font-size: 14px;
+    color: white;
+}
+.profile-name{
+    font-weight: bold;
+    font-size: 23px;
+    color: white;
+}
+button{
+    height: 35px;
+    width: 100px;
+    color: white;
+    font-family: itim,sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.05);
+}
+.container{
+    padding: 20px;
+    background-color: blanchedalmond;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+}
+.projects{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.sub-menu{
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.projects-cards-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.projects-cards{
+    background-color: azure;
+    padding: 20px;
+    border: 2px solid peachpuff;
+    border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 5fr 2fr;
+    position: relative;
+}
+.projects-cards:hover{
+    top: -1.5%;
+}
+.projects-description{
+    font-weight: bold;
+    font-size: 16px;
+}
+.projects-buttons{
+    align-self: end;
+    justify-self: end;
+}
+.projects-buttons a{
+    margin-left: 20px;
+}
+.announcements-container{
+    background-color: whitesmoke;
+    padding: 20px;
+    border: 2px solid peachpuff;
+    border-radius: 20px;
+}
+.announcements-description{
+    font-weight: bold;
+    font-size: 14px;
+}
+.announcements-content{
+    font-size: 14px;
+}
+.announcements-cards{
+    border-bottom: 1px dotted black;
+    padding: 10px 0px;
+}
+.announcements-cards:last-child{
+    border: none;
+    padding-bottom: 0px;
+}
+.announcements-cards:first-child{
+    padding-top: 0px;
+}
+.trending-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10.5px;
+    padding: 20px;
+    border: 2px solid peachpuff;
+    background-color: lemonchiffon;
+    border-radius: 20px;
+}
+.trending-cards{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.trending img{
+    height: 40px;
+    width: 40px;
+}
+.trending-profile-description{
+    font-size: 14px;
+}
