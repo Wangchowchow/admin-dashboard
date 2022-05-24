@@ -1,5 +1,5 @@
 # Admin Dashboard
-This is an admin dashboard web page that consists of side bar, header, projects, announcements, and trending.
+An admin dashboard that utilizes css grid to diplay side bar, header, projects, announcements, and trending.
 ## Created With
 * HTML
 * CSS
